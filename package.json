@@ -1,0 +1,19 @@
+{
+  "name": "node-aop-native",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node-gyp rebuild"
+  },
+  "author": "",
+  "license": "ISC",
+  "gypfile": true,
+  "dependencies": {
+    "nodeunit": "^0.11.1"
+  },
+  "devDependencies": {
+    "express": "^4.15.3"
+  }
+}
